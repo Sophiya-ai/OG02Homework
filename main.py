@@ -20,3 +20,7 @@ else:
       num2 = int(input("Измените второе число: "))
     else:
       print("Частное равно: ", num1 / num2)
+
+num1 = int(input("Введите первое число: "))
+num2 = int(input("Введите второе число: "))
+print("Частное равно: ", num1 ** num2)
