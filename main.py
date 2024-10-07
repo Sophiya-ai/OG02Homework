@@ -1,5 +1,6 @@
-num1 = int(input("Введите первое число: "))
-num2 = int(input("Введите второе число: "))
+num1, num2 = input("Введите первое и второе число через пробел: ").split()
+num1 = int(num1)
+num2 = int(num2)
 op = input("Введите требуемую операцию из + - * / : ")
 
 while op != "+" and op != "-" and op != "*" and op != "/":
@@ -23,4 +24,4 @@ else:
 
 num1 = int(input("Введите первое число: "))
 num2 = int(input("Введите второе число: "))
-print("Частное равно: ", num1 ** num2)
+print(f"{num1} в степени {num2}: {num1 ** num2}")
