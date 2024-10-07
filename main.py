@@ -22,5 +22,7 @@ else:
       print("Частное равно: ", num1 / num2)
 
 num1 = int(input("Введите первое число: "))
+num1 += 10
 num2 = int(input("Введите второе число: "))
+num2 += 5
 print("Частное равно: ", num1 ** num2)
